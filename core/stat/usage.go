@@ -12,7 +12,7 @@ import (
 
 const (
 	// 250ms and 0.95 as beta will count the average cpu load for past 5 seconds
-	cpuRefreshInterval = time.Millisecond * 250
+	cpuRefreshInterval = time.Second
 	allRefreshInterval = time.Minute
 	// moving average beta hyperparameter
 	beta = 0.95
